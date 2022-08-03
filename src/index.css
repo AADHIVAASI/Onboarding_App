@@ -1,13 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: "#664de5";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20% 0 50px 0;
+}
+
+h4,
+h5 {
+  margin: 10px 0 0 10px;
+  padding: 0;
+  font-weight: 700;
+}
+
+h6 {
+  margin: 20px 0 40px;
+}
+
+.stepper {
+  width: 95%;
+  margin: 0 auto 50px;
+}
+
+.nextButton {
+  text-transform: capitalize !important;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 70%;
+}
+
+.input-field {
+  box-shadow: none;
+  border: 1.7px solid rgba(204, 204, 204, 0.5);
+  border-radius: 6px;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+input[type="text"] {
+  margin: 0 !important;
+  border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
+  padding-left: 10px !important;
+}
+.input-field input[type="text"]:focus + label.active {
+  color: rgba(255, 255, 255, 0) !important;
+}
+.input-field input[type="text"] + label {
+  padding-left: 10px !important;
+}
+.input-field input[type="text"]:not(:placeholder-shown) + label {
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: #664de5 !important;
+  box-shadow: none;
+}
+
+.label {
+  display: flex;
+  margin: 0 0 10px 15% !important;
+  width: inherit;
+  font-weight: 400 !important;
+  letter-spacing: 0.3px !important;
+  font-size: 1em !important;
+}
+
+.work-url {
+  width: 70% !important;
+  display: flex;
+  margin: 0 auto !important;
+}
+
+.exmpl {
+  border: 1px solid #ddd;
+  border-right: 0;
+  height: 48px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  padding: 10px 10px;
+}
+
+.ip-spl {
+  margin-left: 0 !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card {
+  box-shadow: none;
+  border: 2px solid rgba(204, 204, 204, 0.7);
+  width: 33%;
+  height: 190px;
+  margin: 0 10px 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.selectedCard {
+  border: 2px solid rgba(102, 77, 229, 0.7);
+}
+
+.cards {
+  display: flex;
+  justify-content: center !important;
+  margin: 0 !important;
+}
+
+.card-title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.card-content {
+  font-weight: 500 !important;
+  cursor: pointer;
 }
