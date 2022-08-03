@@ -45,7 +45,7 @@ export const initProgressState = {
   heading: "Welcome! First things first...",
   subHeading: "You can always change them later.",
   buttonText: "Create Workspace",
-  next: "/",
+  next: "/Onboarding_App/",
 };
 
 export const workspaceProgressState = {
@@ -53,7 +53,7 @@ export const workspaceProgressState = {
   heading: "Let's setup a home for all your work",
   subHeading: "You can always create another workspace later.",
   buttonText: "Create Workspace",
-  next: "/workspace",
+  next: "/Onboarding_App/workspace",
 };
 
 export const usageProgressState = {
@@ -61,7 +61,7 @@ export const usageProgressState = {
   heading: "How are you planning to use Eden?",
   subHeading: "We'll streamline your setup experience accordingly.",
   buttonText: "Create Workspace",
-  next: "/usage",
+  next: "/Onboarding_App/usage",
 };
 
 export const completionProgressState = {
@@ -69,7 +69,7 @@ export const completionProgressState = {
   heading: "Congratulations, ",
   subHeading: "You have completed onboarding, you can start using the Eden!",
   buttonText: "Launch Eden",
-  next: "/done",
+  next: "/Onboarding_App/done",
 };
 
 export const stepperStyleConfig = {

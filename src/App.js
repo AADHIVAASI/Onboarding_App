@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CompletedForm from "./components/forms/CompletedForm";
 import UsageForm from "./components/forms/UsageForm";
 import WelcomeForm from "./components/forms/WelcomeForm";
@@ -21,10 +21,20 @@ function App() {
             <ProgessContextProvider>
               <Header />
               <Routes>
-                <Route path="/" index element={<WelcomeForm />} />
-                <Route path="/workspace" element={<WorkspaceForm />} />
-                <Route path="/usage" element={<UsageForm />} />
-                <Route path="/done" element={<CompletedForm />} />
+                <Route
+                  path="/Onboarding_App/"
+                  index
+                  element={<WelcomeForm />}
+                />
+                <Route
+                  path="/Onboarding_App/workspace"
+                  element={<WorkspaceForm />}
+                />
+                <Route path="/Onboarding_App/usage" element={<UsageForm />} />
+                <Route
+                  path="/Onboarding_App/done"
+                  element={<CompletedForm />}
+                />
               </Routes>
               <Button />
             </ProgessContextProvider>

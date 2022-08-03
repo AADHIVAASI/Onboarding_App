@@ -7,13 +7,13 @@ import {
 
 export const formDetails = (route) => {
   switch (route) {
-    case "/":
+    case "/Onboarding_App/":
       return workspaceProgressState;
-    case "/workspace":
+    case "/Onboarding_App/workspace":
       return usageProgressState;
-    case "/usage":
+    case "/Onboarding_App/usage":
       return completionProgressState;
-    case "/done":
+    case "/Onboarding_App/done":
       return initProgressState;
     default:
       break;
