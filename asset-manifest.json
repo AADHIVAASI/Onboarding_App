@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Onboarding_App/static/css/main.02becd7e.css",
+    "main.js": "/Onboarding_App/static/js/main.2f34f811.js",
+    "static/media/logo.PNG": "/Onboarding_App/static/media/logo.4528e5aefa9159b2fa07.PNG",
+    "index.html": "/Onboarding_App/index.html",
+    "main.02becd7e.css.map": "/Onboarding_App/static/css/main.02becd7e.css.map",
+    "main.2f34f811.js.map": "/Onboarding_App/static/js/main.2f34f811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02becd7e.css",
+    "static/js/main.2f34f811.js"
+  ]
+}
